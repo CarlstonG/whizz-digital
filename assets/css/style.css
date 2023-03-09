@@ -645,7 +645,8 @@ background-color: #111;}
 
 .team-member:is(:hover, :focus) { border-color: var(--orange); }
 
-.team-member img { width: 100%; }
+.team-member img { width: 200px;
+border-radius: 50%; }
 
 .team-member:is(:hover, :focus) img { opacity: 0.5; }
 
